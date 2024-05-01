@@ -1,0 +1,53 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "name",
+        "job",
+        "id",
+        "createdAt"
+    ],
+    "properties": {
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+                "morpheus"
+            ]
+        },
+        "job": {
+            "type": "string",
+            "default": "",
+            "title": "The job Schema",
+            "examples": [
+                "leader"
+            ]
+        },
+        "id": {
+            "type": "string",
+            "default": "",
+            "title": "The id Schema",
+            "examples": [
+                "945"
+            ]
+        },
+        "createdAt": {
+            "type": "string",
+            "default": "",
+            "title": "The createdAt Schema",
+            "examples": [
+                "2024-04-30T16:13:36.630Z"
+            ]
+        }
+    },
+    "examples": [{
+        "name": "morpheus",
+        "job": "leader",
+        "id": "945",
+        "createdAt": "2024-04-30T16:13:36.630Z"
+    }]
+}
